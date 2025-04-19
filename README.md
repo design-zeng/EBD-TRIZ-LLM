@@ -41,6 +41,32 @@ The framework follows a 6-stage pipeline:
 6. **TRIZ-Based Ideation:** Use contradiction format to generate ideas using TRIZ's 40 principles
 
 > 🔧 Built with [LangChain](https://www.langchain.com/) and [OpenAI GPT-3.5 API](https://platform.openai.com/).
+-----------
+🧪 How to Use It
+To run this project, you'll need an OpenAI API key.
+
+First, Set Your API Key:
+import os
+os.environ["OPENAI_API_KEY"] = "YOUR_OPENAI_API_KEY"
+
+Then, Run the Design Pipeline Step-by-Step
+
+Follow the 6-stage process described in the paper and demonstrated in the notebook:
+
+-Input your design problem
+
+-Use the model to generate structured questions (Stage 1)
+
+-Answer the questions (Stage 2)
+
+-Extract key interactions from the answers (Stage 3)
+
+-Generate a functional analysis and identify contradictions (Stage 4–5)
+
+-Generate ideas (Stage 6)
+
+Each function in the notebook is designed to be used interactively and sequentially to support a guided conceptual design process.
+
 
 ---
 
