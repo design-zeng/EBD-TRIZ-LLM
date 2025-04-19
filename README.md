@@ -1,11 +1,30 @@
 # 🔧 Enhancing TRIZ through Environment-Based Design Methodology Supported by a Large Language Model
 
-This repository accompanies the research paper:
+This repository contains a Python implementation of the TRIZ enhancement through Environment-Based Design Methodology Supported by a Large Language Mode, which is presented in:
 
-**"Enhancing TRIZ through Environment-Based Design Methodology Supported by a Large Language Model"**  
-*Ali Mohammadi, Yong Zeng – Concordia University*
+1. Mohammadi, A. & Zeng, Y. (2025). Enhancing TRIZ through Environment-Based Design Methodology Supported by a Large Language Model. *AI EDAM, 39*.
 
----
+which was evolved from the following:
+
+2. Zeng, Y. (2004). Environment-based formulation of design problem. *Journal of Integrated Design and Process Science, 8(4)*, 45-63.
+3. Wang, M., & Zeng, Y. (2009). Asking the right questions to elicit product requirements. *International Journal of Computer Integrated Manufacturing, 22(4)*, 283-298.
+4. Zeng, Y. (2015).  Environment-based design (EBD): A methodology for transdisciplinary design. *Journal of Integrated Design and Process Science, 19(1)*, 5-24.
+5. Zeng, Y. (2021). Environment: The first thing to look at in conceptual design. *Journal of Integrated Design and Process Science, 24(1)*, 45-66.
+6. Yang, J., Zeng, Y., Ekwaro-Osire, S., Nispel, A., & Ge, H. (2022). Environment-based life cycle decomposition (eLCD): Adaptation of EBD to sustainable design. *Journal of Integrated Design and Process Science, 24(2)*, 5-28.
+
+If you use this implementation in your work, please add a reference/citation to the paper:
+
+```bibtex
+@article{pan2021self,
+  title={Enhancing TRIZ through Environment-Based Design Methodology supported by a large language model},
+  author={Mohammadi, Ali and Zeng, Yong},
+  journal={AI EDAM},
+  volume={39},
+  pages={ex},
+  year={2025},
+  publisher={Cambridge University Press}
+}
+```
 
 ## 📜 Abstract
 
@@ -69,17 +88,8 @@ Follow the 6-stage process described in the paper and demonstrated in the notebo
 
 Each function in the notebook is designed to be used interactively and sequentially to support a guided conceptual design process.
 
-
 ---
 
-📝 Citation
-If you use this repository or our framework in your research, please cite:
-@article{mohammadi2025enhancing,
-  title={Enhancing TRIZ through Environment-Based Design Methodology Supported by a Large Language Model},
-  author={Mohammadi, Ali and Zeng, Yong},
-  journal={To Appear},
-  year={2025}
-}
 
 🤝 Contributing
 We welcome ideas, collaborations, and improvements! Open an issue or submit a pull request to contribute.
